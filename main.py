@@ -1,3 +1,4 @@
+""" A 'breathing-led' program to help fall asleep (c) Laurent Alacoque June 2021 """
 #Breathing led program comparable to the "dowdow"
 from pulseled import Led,LedPack
 import time
