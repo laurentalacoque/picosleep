@@ -24,6 +24,7 @@ Keep in mind that you should upload two files on your raspberry:
 - `main.py` (the main program)
 
 Once this is done, you can disconnect the pico and plug it again to a power source : the onboard green led should now be pulsing
+
 [![picoSleep pulsing onboard led](https://img.youtube.com/vi/Mms6qdON9Jg/0.jpg)](https://youtu.be/Mms6qdON9Jg)
 
 **Done : you can enjoy your sleep aid platform :)**
