@@ -81,9 +81,9 @@ Most important parameters are at the top of `main.py` file, here's a description
 
 ### RGB led parameters
 
-- `RGB_PINS  = (13,14,15)` the GPIOs where you soledered your respectively Red, Green and Blue pins
-- `MAX_RGB_VALUE = 0.6` the maximum light power for the RGB led in the range [0 - 1.0]
-- `MAX_RGB_LIGHT   = (255,210,160)` this is a preset of the relative power of each led and depends on the led maker and model and acts as a color balance. If you feel that the colors lack of Red, Green or Blue, try to change the channel intensity here.
+- `RGB_PINS  = (13,14,15)` the GPIOs where you soledered (respectively) the led's Red, Green and Blue pins
+- `MAX_RGB_VALUE = 0.6` the maximum light power for the RGB led in the range [0 - 1.0]. Use this to tune the intensity of the RGB led.
+- `MAX_RGB_LIGHT   = (255,210,160)` this is a preset of the relative power of each led and depends on the led maker and model and acts as a color balance. If you feel that the colors lack of Red, Green or Blue, try to change each channel intensity here (lack of blue ? increase the value 160 to 180. Too much green ? decrease the 210 value to 190...)
 
 - `USE_RGB_LED = False` whether to use the soldered RGB led (set this to `True`) or the onboard monochromous led (leave this to `False`)
 
