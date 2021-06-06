@@ -9,14 +9,31 @@ Synchronize your breathing with the led pulses to decrease your heart and breath
 
 [![picoSleep with an RGB led and a star origami in action](https://img.youtube.com/vi/jH4l7bzbc8k/0.jpg)](https://youtu.be/jH4l7bzbc8k)
 
-## Do it yourself
+## Do yours!
 
-### 1. Get your raspberry pico and set it up
+### Table of content
+- [Get a pico board](#getit)
+- [Install the software](#install)
+- [Improve with an RGB led](#rgb)
+- [Tune things up](#tuneit)
+
+### <a id="getit"></a>1. Get your raspberry pico and set it up
+
 **raspberry pico** are inexpensive computing platforms that interact with the world.
 
-See the [official raspberry site](https://www.raspberrypi.org/products/raspberry-pi-pico/) to get one and set it up
+See the [official raspberry site](https://www.raspberrypi.org/products/raspberry-pi-pico/) to get one and set it up.
 
-### 2. Upload the source to your pico
+Here's a very brief and simple way to do it:
+- Buy a raspberry pico board (~ $4)
+- Download the official micropython [UF2 image from raspberry.org](https://www.raspberrypi.org/documentation/rp2040/getting-started/#getting-started-with-micropython) ([or directly here](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2))
+- Connect it to a PC in media mode
+  - connect the USB cable to your pico board
+  - hold down the pico board `BOOTSEL` switch _while_ you're plugin it to your PC
+  - release the bootsel button when the pico board appears as a drive
+  - drop the UF2 file you dowloaded on the drive and eject it
+- Install Thonny and configure it for the raspberry pico
+
+### <a id="install"></a>2. Upload the source to your pico
 There are several ways to do this, please refer to the official doc to understand how.
 
 Keep in mind that you should upload two files on your raspberry:
@@ -29,7 +46,7 @@ Once this is done, you can disconnect the pico and plug it again to a power sour
 
 **Done : you can enjoy your sleep aid platform :)**
 
-### 3. Not satisfied ? Improve the PicoSleep with an RGB led
+### <a id="rgb"></a>3. Not satisfied ? Improve the PicoSleep with an RGB led
 
 #### Get your RGB led
 
@@ -65,7 +82,7 @@ I made an origami star led cover, see this tutorial for how to do it:
 
 Note: I used a 1.5 cm x 30 cm band of plain paper for the cover.
 
-## 4. Tune things up
+## <a id="tuneit"></a>4. Tune things up
 
 Most important parameters are at the top of `main.py` file, here's a description for them:
 
