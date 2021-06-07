@@ -7,6 +7,8 @@ It runs on the [raspberry pico](https://www.raspberrypi.org/products/raspberry-p
 
 Synchronize your breathing with the led pulses to decrease your heart and breathing rates and help yourself fall asleep.
 
+Click to see it in action:
+
 [![picoSleep with an RGB led and a star origami in action](https://img.youtube.com/vi/jH4l7bzbc8k/0.jpg)](https://youtu.be/jH4l7bzbc8k)
 
 ## Do yours!
